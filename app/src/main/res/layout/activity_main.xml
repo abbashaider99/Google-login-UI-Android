@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<ImageView
+    android:layout_width="190dp"
+    android:layout_height="70dp"
+    android:src="@drawable/google_logo"
+    android:layout_marginTop="70dp"
+    android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in with your Google Account"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="320dp"
+        android:background="@drawable/login_layout_bg"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/user"
+            android:layout_marginTop="16dp"/>
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:hint="Enter your email"
+            android:background="@drawable/design_email"
+            android:layout_gravity="center_horizontal"
+            android:paddingStart="15dp"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="30dp"/>
+        <Button
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:scrollbarSize="@dimen/cardview_compat_inset_shadow"
+            android:background="@drawable/btn_signin_design"
+            android:layout_gravity="center_horizontal"
+            android:paddingStart="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_next"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Need help?"
+            android:layout_gravity="end"
+            android:layout_marginRight="34dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#1A8DF1"
+            android:textSize="20sp"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create account"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textSize="21sp"
+        android:textColor="#1A8DF1"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="One Google Account for everything Google"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="30dp"
+      android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal
+"
+        android:layout_marginTop="10dp">
+    <ImageView
+        android:padding="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/google_plus"/>
+    <ImageView
+        android:padding="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/adwords"/>
+    <ImageView
+        android:padding="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/meet"/>
+    <ImageView
+        android:padding="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/google_maps"/>
+    <ImageView
+        android:padding="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/google_play"/>
+        <ImageView
+            android:padding="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/drive"/>
+
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Designed by Abbas Haider"
+        android:id="@+id/designer"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
